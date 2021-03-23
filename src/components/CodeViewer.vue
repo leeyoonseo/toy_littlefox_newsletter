@@ -1,7 +1,13 @@
 <template>
     <aside v-show="isOpen" class="code-viewer">
         <div class="code-viewer__inner">
-            <textarea ref="code" v-model="resultCode" contenteditable="true" class="code-viewer__code"></textarea>
+            <textarea 
+                ref="code" 
+                v-model="resultCode" 
+                contenteditable="true" 
+                class="code-viewer__code"
+                readonly
+            ></textarea>
 
             <button @click="onClose" type="button" class="code-viewer__button">닫기</button>
             <button @click="onCopy" type="button" class="code-viewer__button">복사하기</button>

@@ -66,11 +66,8 @@ export default {
     },
     
     methods : {
-
         setContentURL(){
-            const contentArea = this.$refs.realContent;
             let contentURL;
-           
             contentURL = `/${this.$route.name}/${this.uiConfig.folderName}/${this.data.type}`;    
             contentURL += (this.$route.name === 'Global') ? `/${this.data.language}.html` : '.html'; 
 
@@ -82,7 +79,6 @@ export default {
             const newsStyle = document.getElementById('newsStyle');
             newsStyle.href = this.styleSheetURL;
         }       
-           
     } // methods
 }
 </script>
