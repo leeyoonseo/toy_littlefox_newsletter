@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/**
+ * 새소식/뉴스레터 사이트 레이어 팝업 CSS (PC | Mobile)
+ * @author yoonseo.Lee (2019.10.02)
+ * @media (max-width:719px | max-height:366px)
+ * @see ui.VideoLayer.js
+ */
+
+/* added by myalee(2019.06.27) : 팝업 레이어 */
+.view-modal{overflow:hidden;width:100%;height:100%;}
+.layer_wrap{z-index:999;display:none;position:fixed;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60000000,endColorstr=#60000000);}
+.layer_content {position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+/* --// added by myalee(2019.06.27) : 팝업 레이어 */
+
+/* added by myalee(2019.06.27) : 비디오 레이어 스타일 */
+[class*="video_modal"] .layer_content{width:671px;height:386px;border:1px solid #0072bc;background:#fff;box-sizing:border-box;}
+[class*="video_modal"] .layer_section{line-height:0;border:9px solid #fff;}
+[class*="video_modal"] .layer_title{display:none;}
+[class*="video_modal"] .btn_layer_close{position:absolute;right:0;top:-44px;width:38px;height:37px;border:0;background:url('/static/layout/ko_KR/img/voucher/btn_close_layer.png') no-repeat; }
+[class*="video_modal"] .btn_layer_close > span{display:none;}
+[class*="video_modal"] video,
+[class*="video_modal"] .poster{width:100%;height:100%;}
+[class*="video_modal"] .ie8_text{position:absolute;left:2em;right:2em;bottom:2em;padding:5px;color:#fff;line-height:1;text-align:center;background:#000;}
+/* --// added by myalee(2019.06.27) : 비디오 레이어 스타일 */
+
+/* .video_modal_2 */
+.video_modal_2  {background:rgba(0,0,0,.6);}
+.video_modal_2 .layer_content{left:-4%;border:0;background:transparent;}
+.video_modal_2 .layer_section{border-width:0;}
+.video_modal_2 .btn_layer_close{top:-4px;right:-38px;background:url('https://img.littlefox.co.kr/static/newsletter/2019_09/global_news/btn_close_layer.png');}
+
+@media screen and (max-width:719px) {
+    /* .video_modal_2 */
+    .video_modal_2 .layer_content{top:5vh;left:-22px;bottom:auto;width:90%;height:auto;box-sizing:border-box;}
+    .video_modal_2 .btn_layer_close{right:-27px;width:27px;height:26px;background-size:27px 26px;}
+}
+
+@media screen and (max-height:366px) {
+    /* .video_modal_2 */
+    .video_modal_2 .layer_content{top:2.5vh;}
+}
