@@ -1,0 +1,9 @@
+{
+    "folderName" : "201910",
+    "wrapperNews" : "wrapper1910",
+    "wrapperLetter" : "foxletterWrapper",
+    "useLetter" : true,
+    "useNews" : true,
+    "stylesheet" : "css/news.css",
+    "language" : "cn"
+}

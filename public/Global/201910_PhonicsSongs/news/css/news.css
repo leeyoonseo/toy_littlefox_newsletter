@@ -1,0 +1,65 @@
+.nl-wrapper1910_PhonicsSongs div {font-size:inherit;}
+.nl-wrapper1910_PhonicsSongs p,
+.nl-wrapper1910_PhonicsSongs td {padding:0;margin:0;}
+.nl-wrapper1910_PhonicsSongs a  {display:inline-block;text-decoration:none;}
+.nl-wrapper1910_PhonicsSongs em {font-style:italic !important;}
+
+.nl-wrapper1910_PhonicsSongs {max-width:744px;margin:0 auto;font-family:'맑은고딕','Arial','Malgun Gothic',Dotum,'돋움',sans-serif;color:#333;font-size:16px;line-height:24px;background-color:#fffca8;}
+
+.nl-wrapper1910_PhonicsSongs.en {font-family:'Arial',sans-serif;}
+.nl-wrapper1910_PhonicsSongs.cn {font-family:"Microsoft YaHei",'Arial',sans-serif;}
+.nl-wrapper1910_PhonicsSongs.jp {font-family:Meiryo,"メイリオ","MS PGothic","Osaka",Arial,sans-serif;}
+.nl-wrapper1910_PhonicsSongs.tw,
+.nl-wrapper1910_PhonicsSongs.hk {font-family:"Microsoft MingLiU",新細明體,Arial,sans-serif;}
+
+.nl-wrapper1910_PhonicsSongs .nl-head {padding:13px 0;background:#004ce7;text-align:center;line-height:0;}
+.nl-wrapper1910_PhonicsSongs .nl-head .nl-ttl {position:relative;display:inline-block;max-width:90%;margin:0 auto;font-size:1.4em;line-height:130%;box-sizing:border-box;overflow:hidden;}
+.nl-wrapper1910_PhonicsSongs .nl-head .nl-ttl > span {display:inline-block;width:100%; max-width:675px;color:#fff;font-weight:bolder;padding:.5em 0em;}
+.nl-wrapper1910_PhonicsSongs .nl-head .nl-ttl .nl-strong {color:#fcff00 ;}
+
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-top{ line-height:0; }
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-top > a {display:block;font-size:0;line-height:0;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-top > a > img{ width:100%; height:100%; border:0;}
+
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-main{ padding:0 2.42em;background-image:url('https://img.littlefox.co.kr/static/newsletter/2019_10/global_news/main_bg.png');background-repeat:no-repeat;background-size:100% 100%; }
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-video-wrap{ position:relative; border:3px solid #175517; box-sizing:border-box; border-radius:3px; line-height:0;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-video{ overflow:hidden;line-height:0; }
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-video > video{  width:100%; height:100%; }
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-video > img { width:100%; height:100%; }
+
+.nl-wrapper1910_PhonicsSongs .nl-body .ie8_text {padding-top:12px; font-size:0.9em; text-align:center; line-height:1.1; padding-top:0.75em;}
+
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc {margin:0 2.40em; padding-top:1.7em;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-ttl {margin-bottom:.7em;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-ttl .nl-new {display:inline-block;width:3.786em;font-size:0.875em;text-align:center;line-height:0;padding:0.857em 0;vertical-align:text-bottom;font-weight:bold;background-color:#f42b47;color:#fff;border-radius:0.857em;border:1px solid #f42b47;box-sizing:border-box;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-ttl .nl-strong {padding-right:5px;font-size:1.57em;color:#175517;font-weight:bolder;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-ttl .nl-sub {font-size:1em;word-break: keep-all;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-text {font-size:1.125em;line-height:1.6em;color:#333;word-break:keep-all;}
+.nl-wrapper1910_PhonicsSongs.jp .nl-body .nl-desc .nl-p-text {word-break:normal;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-text p + p {padding-top:.5em;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-text .nl-strong {color:#07a007;font-weight:700;}
+.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc .nl-p-text .nl_italic{font-style:italic;}
+
+
+.nl-wrapper1910_PhonicsSongs .nl-foot{line-height:0;}
+.nl-wrapper1910_PhonicsSongs .nl-foot .nl-foot-mobile{display:none;}
+
+.is_mobile .nl-foot .nl-foot-pc{display:none !important;}
+.is_mobile .nl-foot .nl-foot-mobile{display:block !important;}
+.nl-wrapper1910_PhonicsSongs .nl-foot img{width:100%;}
+
+
+
+@media screen and (max-width:499px) {
+	.nl-wrapper1910_PhonicsSongs {font-size:90%;}
+}
+
+@media screen and (max-width:639px) {
+	.nl-wrapper1910_PhonicsSongs .nl-head .nl-ttl {width:90%;word-break:keep-all;}
+	.nl-wrapper1910_PhonicsSongs .nl-body .nl-main{padding:0 1.2em;}
+	.nl-wrapper1910_PhonicsSongs .nl-body .nl-desc{margin:0 1.2em;}
+	.nl-wrapper1910_PhonicsSongs.jp .nl-body .nl-desc .nl-p-ttl .nl-strong {font-size: 1.4em}
+}
+@media screen and (max-width:479px) {
+	.nl-wrapper1910_PhonicsSongs .nl-body .nl-video-wrap{ border-width:2px; }
+}

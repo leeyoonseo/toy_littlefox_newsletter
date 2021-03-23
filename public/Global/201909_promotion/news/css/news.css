@@ -1,0 +1,193 @@
+/* display */
+.is_mobile .news_1909_Promotion .btn_now.pc,
+.news_1909_Promotion .btn_now.mobile{display:none !important;}
+.is_mobile .news_1909_Promotion .btn_now.mobile{ display:block !important; }
+
+/* reset */
+.news_1909_Promotion div {font-size:inherit;}
+.news_1909_Promotion p,
+.news_1909_Promotion td {padding:0;margin:0;}
+.news_1909_Promotion a  {display:inline-block;text-decoration:none;}
+.news_1909_Promotion em {font-style:italic !important;}
+.news_1909_Promotion button{background:initial;cursor:pointer;outline:none;}
+
+/* layout */
+.news_1909_Promotion {max-width:720px;margin:0 auto;font-family:'맑은고딕','Arial','Malgun Gothic',Dotum,'돋움',sans-serif;color:#333;font-size:20px;line-height:1.3;}
+.news_1909_Promotion.en {font-family:'Arial',sans-serif;}
+.news_1909_Promotion.cn {font-family:"Microsoft YaHei",'Arial',sans-serif;}
+.news_1909_Promotion.jp {font-family:Meiryo,"メイリオ","MS PGothic","Osaka",Arial,sans-serif;}
+.news_1909_Promotion.tw,
+.news_1909_Promotion.hk {font-family:"Microsoft MingLiU",新細明體,Arial,sans-serif;}
+/* common */
+.view-modal {width:100vw;height:100vh;overflow:hidden;}
+
+/* .nl-head 720*849 */
+.news_1909_Promotion .nl-head {position:relative;padding:56px 0;max-width:720px;max-height:849px;text-align:center;box-sizing:border-box;background:#43aa49;}
+.news_1909_Promotion .nl-head .img_bg {position:absolute;left:0;top:0;width:100%;z-index:1;}
+.news_1909_Promotion .nl-head .nl-slogan {margin-bottom:36px;font-size:0;line-height:0;}
+.news_1909_Promotion .nl-head .nl-slogan img {max-width:361px;}
+.news_1909_Promotion .nl-head .nl-cont {position:relative;z-index:2;}
+.news_1909_Promotion .nl-head .nl-ttl {margin-bottom:35px;font-size:0;line-height:0;}
+.news_1909_Promotion .nl-head .btn_promotion_play {display:block;margin:0 auto 27px;max-width:468px;font-size:0;line-height:0;outline:none;cursor:pointer;}
+.news_1909_Promotion .nl-head .btn_promotion_play img {width:100%;}  
+.news_1909_Promotion .nl-head .nl-text {margin:0 auto;width:90%;color:#fff;font-size:22px;line-height:1.3;}
+.news_1909_Promotion .nl-head .nl-text strong {color:#fcff00;font-weight:normal;}
+
+
+/* .nl-body */
+.news_1909_Promotion .nl-section {position:relative;padding:90px 0 80px;z-index:2;}
+.news_1909_Promotion .nl-section .nl-title {display:block;text-align:center;font-size:0;line-height:0;}
+.news_1909_Promotion .nl-section .nl-center {display:block;text-align:center;}
+.news_1909_Promotion .nl-section button.nl-center{margin:0 auto;}
+
+/* .nl-section - why */
+.news_1909_Promotion .nl-section.why {background:#ffe28c;}
+.news_1909_Promotion .nl-section.why .nl-title {margin-bottom:38px;}
+.news_1909_Promotion .nl-section.why .nl-title img {width:100%;}
+.news_1909_Promotion .nl-section.why .nl-why_cont {display:table;margin:0 auto;width:83%;text-align:center;}
+.news_1909_Promotion .nl-section.why .nl-why_cont + .nl-why_cont {margin-top:34px;}
+.news_1909_Promotion .nl-section.why .img {float:left;padding-left:5px;width:35.5%;max-width:209px;}
+.news_1909_Promotion .nl-section.why ul {float:right;padding-top:61px;width:60%;text-align:left;}
+.news_1909_Promotion .nl-section.why li {position:relative;padding-left:12px;color:#333;font-size:20px;line-height:1.3;}
+.news_1909_Promotion .nl-section.why li:after {content:'';position:absolute;left:0;top:10px;width:5px;height:5px;vertical-align:top;line-height:0;font-weight:0;background:url('https://img.littlefox.co.kr/static/newsletter/2019_09/global_news/bul_black.png') 0 0 no-repeat;}
+.news_1909_Promotion .nl-section.why li + li {margin-top:22px;}
+.news_1909_Promotion .nl-section.why .nl-why_cont.first ul {padding-top:20px;}
+.news_1909_Promotion .nl-section.why .nl-center {margin-top:28px;}
+/* .nl-section - code */
+.news_1909_Promotion .nl-section.code {padding-bottom:100px;background:#ffeae0;}
+.news_1909_Promotion .nl-section.code .nl-title {margin-bottom:38px;}
+.news_1909_Promotion .nl-section.code .nl-center.price {margin:0 auto 45px;font-size:0;line-height:0;}
+.news_1909_Promotion .nl-section.code .nl-center.price img {max-width:376px;}
+.news_1909_Promotion .nl-section.code .nl-center.btn {font-size:0;line-height:0;}
+.news_1909_Promotion .nl-section.code .promotional_code {position:relative;margin:0 auto 48px;width:80%;max-width:484px;text-align:center;}
+.news_1909_Promotion .nl-section.code .promotional_code .img_bg {width:100%;}
+.news_1909_Promotion .nl-section.code .promotional_code .code_box {display:block;position:absolute;left:0;top:0;padding-top:46px;width:100%;text-align:center;}
+.news_1909_Promotion .nl-section.code .promotional_code .code_box .title {display:block;margin-bottom:33px;font-size:0;line-height:0;}
+.news_1909_Promotion .nl-section.code .promotional_code .code_box .title img {width:100%;}
+.news_1909_Promotion .nl-section.code .promotional_code .code_box .code {display:block;margin:0 auto;width:275px;height:50px;color:#ff2a00;font-size:26px;line-height:50px;font-weight:bold;border:2px solid #4ac050;box-sizing:border-box;}
+.news_1909_Promotion .nl-section.code .promotional_code .code_box .date {display:block;margin-top:26px;width:100%;color:#4c4c4c;font-size:21px;text-align:center;}
+/* .nl-section - how */
+.news_1909_Promotion .nl-section.how {padding:90px 0 100px;background:#f4f4f4;}
+.news_1909_Promotion .nl-section.how .nl-title {padding-bottom:70px;}
+.news_1909_Promotion .nl-section.how ol {margin:0 auto;width:88%;}
+.news_1909_Promotion .nl-section.how li {position:relative;padding-left:28px;text-indent:-5px;font-size:20px;}
+.news_1909_Promotion .nl-section.how li + li {margin-top:38px;padding-top:40px;color:#222;border-top:1px solid #cfcfcf;}
+.news_1909_Promotion .nl-section.how li span.number {display:inline-block;width:24px;height:24px;color:#fff;font-size:16px;line-height:25px;text-indent:0;font-weight:bold;text-align:center;vertical-align:middle;background:#3cb142;}
+.news_1909_Promotion .nl-section.how .text_red {display:block;padding:3px 0 0 7px;color:#ff2a00;font-size:18px;text-indent:0;}
+.news_1909_Promotion .nl-section.how .text_green {color:#3cb142;}
+.news_1909_Promotion .nl-section.how .text_gray {display:block;padding-top:1px;color:#4c4c4c;font-size:16px;text-indent:0;}
+.news_1909_Promotion .nl-section.how .img {margin-top:34px;}
+.news_1909_Promotion .nl-section.how .img.type2 {margin-bottom:20px;}
+.news_1909_Promotion .nl-section.how .img.type3 {margin-top:16px;}
+
+/* en */
+.news_1909_Promotion.en .nl-section.why .nl-title img {max-width:333px;}
+.news_1909_Promotion.en .nl-section.why .nl-center img {max-width:203px;}
+.news_1909_Promotion.en .nl-section.code .promotional_code .code_box .title img {max-width:289px;}
+.news_1909_Promotion.en .nl-section.how .nl-title img {max-width:372px;}
+
+/* mobile */
+.is_mobile .news_1909_Promotion.en .nl-head .nl-ttl img,
+.is_mobile .news_1909_Promotion.en .nl-section.code .nl-title img{max-width:454px; }
+
+/* cn */
+.news_1909_Promotion.cn .nl-head .nl-ttl img {max-width:453px;}
+.news_1909_Promotion.cn .nl-section.why .nl-title img {max-width:481px;}
+.news_1909_Promotion.cn .nl-section.code .nl-title img {max-width:196px;}
+.news_1909_Promotion.cn .nl-section.code .promotional_code .code_box .title img {max-width:151px;}
+.news_1909_Promotion.cn .nl-section.how .nl-title img {max-width:237px;}
+/* tw hk */
+.news_1909_Promotion.tw .nl-head .nl-ttl img,
+.news_1909_Promotion.hk .nl-head .nl-ttl img {max-width:454px;}
+.news_1909_Promotion.tw .nl-section.why .nl-title img,
+.news_1909_Promotion.hk .nl-section.why .nl-title img {max-width:500px;}
+.news_1909_Promotion.tw .nl-section.why .nl-center img,
+.news_1909_Promotion.hk .nl-section.why .nl-center img {max-width:365px;}
+.news_1909_Promotion.tw .nl-section.code .promotional_code .code_box .title img,
+.news_1909_Promotion.hk .nl-section.code .promotional_code .code_box .title img {max-width:151px;}
+.news_1909_Promotion.tw .nl-section.how .nl-title img,
+.news_1909_Promotion.hk .nl-section.how .nl-title img {max-width:237px;}
+/* jp */
+.news_1909_Promotion.jp .nl-head .nl-ttl img {max-width:574px;}
+.news_1909_Promotion.jp .nl-section.why .nl-title img {max-width:359px;}
+.news_1909_Promotion.jp .nl-section.code .nl-title img {max-width:239px;}
+.news_1909_Promotion.jp .nl-section.code .promotional_code .code_box .title img {max-width:197px;}
+.news_1909_Promotion.jp .nl-section.how .nl-title img {max-width:354px;}
+
+@media screen and (max-width:719px) {
+	/* .nl-section - how */
+	.news_1909_Promotion .nl-section.how li img {width:100%;}
+}
+@media screen and (max-width:639px) {
+	/* .nl-head */
+	.news_1909_Promotion .nl-head {padding:9% 0;}
+	.news_1909_Promotion .nl-head .nl-slogan {margin-bottom:5%;}
+	.news_1909_Promotion .nl-head .nl-slogan img {width:60%;}
+	.news_1909_Promotion .nl-head .nl-ttl img {width:80% !important;}
+	.news_1909_Promotion .nl-head .btn_promotion_play {margin-bottom:2.7%;width:73%;}
+	.news_1909_Promotion .nl-head .nl-text {padding:0 5%;font-size:12px;}
+	.news_1909_Promotion .nl-head .nl-text span {display:inline;word-wrap:break-word;}
+	/* .nl-body */
+	.news_1909_Promotion .nl-section {padding:16% 0 12%;}
+
+	/* .nl-section - why */
+	.news_1909_Promotion .nl-section.why .nl-why_cont {width:73%;text-align:center;}
+	.news_1909_Promotion .nl-section.why .nl-why_cont + .nl-why_cont {margin-top:3.6%;}
+	.news_1909_Promotion .nl-section.why .nl-why_cont.first {margin-top:0;}
+	.news_1909_Promotion .nl-section.why .nl-title {margin-bottom:0;}
+	.news_1909_Promotion .nl-section.why ul,
+	.news_1909_Promotion .nl-section.why .nl-why_cont.first ul {float:none;padding-top:5px;width:100%;}
+	.news_1909_Promotion .nl-section.why li {padding-left:6px;font-size:12px;text-align:left;}
+	.news_1909_Promotion .nl-section.why li:after {top:5px;width:2px;height:2px;background-size:2px 2px;}
+	.news_1909_Promotion .nl-section.why li + li {margin-top:2.5%;}
+	.news_1909_Promotion .nl-section.why .img {float:none;padding:0;width:80%;}
+	.news_1909_Promotion .nl-section.why .nl-center {margin-top:3.8%;}
+	.news_1909_Promotion .nl-section.why .nl-center img {width:40%;}
+	/* .nl-section - code */
+	.news_1909_Promotion .nl-section.code {padding-bottom:16%;}
+	.news_1909_Promotion .nl-section.code .nl-title {margin-bottom:3.3%;font-size:0;line-height:0;}
+	.news_1909_Promotion .nl-section.code .nl-center.price {margin-bottom:3.7%;}
+	.news_1909_Promotion .nl-section.code .nl-center.price img {width:70%;}
+	.news_1909_Promotion .nl-section.code .promotional_code {margin-bottom:4.2%;}
+	.news_1909_Promotion .nl-section.code .promotional_code .img_bg {width:90%;}
+	.news_1909_Promotion .nl-section.code .promotional_code .code_box {padding-top:9%;}
+	.news_1909_Promotion .nl-section.code .promotional_code .code_box .title {margin-bottom:4%;}
+	.news_1909_Promotion .nl-section.code .promotional_code .code_box .title img {width:60%;}	
+	.news_1909_Promotion .nl-section.code .promotional_code .code_box .code {width:48%;height:25px;font-size:13px;line-height:25px;border-width:1px;}
+	.news_1909_Promotion .nl-section.code .promotional_code .code_box .date {margin-top:4.2%;font-size:11px;}
+	.news_1909_Promotion .nl-section.code .nl-center.btn img {width:60%;}
+	/* .nl-section - how */
+	.news_1909_Promotion .nl-section.how {padding:16% 0 12%;}
+	.news_1909_Promotion .nl-section.how .nl-title {padding-bottom:5%;}
+	.news_1909_Promotion .nl-section.how .nl-title img {width:60%;}
+	.news_1909_Promotion .nl-section.how li {padding-left:14px;text-indent:-2.5px;font-size:12px;}
+	.news_1909_Promotion .nl-section.how li + li {margin-top:3.6%;padding-top:3.8%;}
+	.news_1909_Promotion .nl-section.how .text_red,
+	.news_1909_Promotion .nl-section.how .text_gray {font-size:11px;}
+	.news_1909_Promotion .nl-section.how li span.number {width:14px;height:14px;font-size:11px;line-height:14px;}
+	.news_1909_Promotion .nl-section.how .img {margin-top:6.5%;}
+	
+	/* tw hk */
+	.news_1909_Promotion.tw .nl-section.why .nl-title img,
+	.news_1909_Promotion.hk .nl-section.why .nl-title img {width:89%;}
+	/* jp */
+	.news_1909_Promotion.jp .nl-section.code .promotional_code .code_box {padding-top:10%;}
+	.news_1909_Promotion.jp .nl-section.code .promotional_code .code_box .title img {width:40%;}	
+
+}
+@media screen and (max-width:510px) {
+	/* .nl-section - why */
+	.news_1909_Promotion .nl-section.why .nl-title img {width:60% !important;}
+	/* .nl-section - code */
+	.news_1909_Promotion .nl-section.code .nl-title img {width:80% !important;}
+
+	/* cn */
+	.news_1909_Promotion.cn .nl-section.code .promotional_code .code_box .title img {width:30% !important;}
+	/* tw hk */
+	.news_1909_Promotion.tw .nl-section.code .nl-title img,
+	.news_1909_Promotion.hk .nl-section.code .nl-title img {width:40% !important;}	
+	.news_1909_Promotion.tw .nl-section.how .nl-title img,
+	.news_1909_Promotion.hk .nl-section.how .nl-title img {width:45% !important;}
+	.news_1909_Promotion.tw .nl-section.code .promotional_code .code_box .title img, 
+	.news_1909_Promotion.hk .nl-section.code .promotional_code .code_box .title img {width:40% !important;}
+}

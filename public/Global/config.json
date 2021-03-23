@@ -1,0 +1,67 @@
+[
+    {
+        "folderName" : "201910_PhonicsSongs",
+        "title" : "[1910] Phonics Songs",
+        "wrapperNews" : "wrapper1910_PhonicsSongs",
+        "wrapperLetter" : "foxletterWrapper",
+        "useLetter" : true,
+        "useNews" : true,
+        "stylesheet" : "news/css/news.css",
+        "language" : {
+            "letter" : ["en", "jp", "cn", "hk", "tw"],
+            "news" : ["ko", "en", "jp", "cn", "hk", "tw"]
+        }
+    },
+    {
+        "folderName" : "201909_promotion",
+        "title" : "[1909] promotion",
+        "wrapperNews" : "newsContainer",
+        "wrapperLetter" : "foxletterWrapper",
+        "useLetter" : true,
+        "useNews" : true,
+        "stylesheet" : "news/css/news.css",
+        "language" : {
+            "letter" : ["en", "jp", "cn", "hk", "tw"],
+            "news" : ["en", "jp", "cn", "hk", "tw"]
+        }
+    },
+    {
+        "folderName" : "201907_RocketGirl",
+        "title" : "[1907] Rocket Girl",
+        "wrapperNews" : "wrapper1907_RocketGirl",
+        "wrapperLetter" : "foxletterWrapper",
+        "useLetter" : false,
+        "useNews" : true,
+        "stylesheet" : "news/css/news.css",
+        "language" : {
+            "letter" : ["en", "jp", "cn", "hk", "tw"],
+            "news" : ["ko","en", "jp", "cn", "hk", "tw"]
+        }
+    },
+    {
+        "folderName" : "201906_MeetTheAnimals",
+        "title" : "[1906] Meet The Animals",
+        "wrapperNews" : "wrapper1906_mta",
+        "wrapperLetter" : "foxletterWrapper",
+        "useLetter" : true,
+        "useNews" : true,
+        "stylesheet" : "news/css/news.css",
+        "language" : {
+            "letter" : ["en", "jp", "cn", "hk", "tw"],
+            "news" : ["ko","en", "jp", "cn", "hk", "tw"]
+        }
+    },
+    {
+        "folderName" : "201906_TheCarterFamily",
+        "title" : "[1906] The Carter Family",
+        "wrapperNews" : "wrapper1906_tcf",
+        "wrapperLetter" : "foxletterWrapper",
+        "useLetter" : false,
+        "useNews" : true,
+        "stylesheet" : "news/css/news.css",
+        "language" : {
+            "letter" : ["en", "jp", "cn", "hk", "tw"],
+            "news" : ["ko","en", "jp", "cn", "hk", "tw"]
+        }
+    }
+]

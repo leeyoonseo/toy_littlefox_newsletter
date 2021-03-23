@@ -1,0 +1,90 @@
+.nl-wrapper1907_RocketGirl div {font-size:inherit;}
+.nl-wrapper1907_RocketGirl p,
+.nl-wrapper1907_RocketGirl td {padding:0;margin:0;}
+.nl-wrapper1907_RocketGirl a  {display:inline-block;text-decoration:none;}
+.nl-wrapper1907_RocketGirl em {font-style:italic !important;}
+
+.nl-wrapper1907_RocketGirl {max-width:744px;margin:0 auto;font-family:'맑은고딕','Arial','Malgun Gothic',Dotum,'돋움',sans-serif;color:#333;font-size:16px;line-height:24px;background-color:#fff8ad;}
+
+.nl-wrapper1907_RocketGirl.en {font-family:'Arial',sans-serif;}
+.nl-wrapper1907_RocketGirl.cn {font-family:"Microsoft YaHei",'Arial',sans-serif;}
+.nl-wrapper1907_RocketGirl.jp {font-family:Meiryo,"メイリオ","MS PGothic","Osaka",Arial,sans-serif;}
+.nl-wrapper1907_RocketGirl.tw,
+.nl-wrapper1907_RocketGirl.hk {font-family:"Microsoft MingLiU",新細明體,Arial,sans-serif;}
+
+.nl-wrapper1907_RocketGirl .nl-head {padding:13px 0;background:#7b4cfc;text-align:center;line-height:0;}
+.nl-wrapper1907_RocketGirl .nl-head .nl-ttl {position:relative;display:inline-block;max-width:90%;margin:0 auto;font-size:1.4em;line-height:130%;box-sizing:border-box;overflow:hidden;}
+.nl-wrapper1907_RocketGirl .nl-head .nl-ttl > span {display:inline-block;width:100%; max-width:675px;color:#fff;font-weight:bolder;padding:.5em 0em;}
+.nl-wrapper1907_RocketGirl .nl-head .nl-ttl .nl-strong {color:#fcff00 ;}
+
+.nl-wrapper1907_RocketGirl .nl-body .nl-top{ line-height:0; }
+.nl-wrapper1907_RocketGirl .nl-body .nl-top > a {display:block;font-size:0;line-height:0;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-top > a > img{ width:100%; height:100%; border:0;}
+
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc {	margin:0 2.40em; }
+.nl-wrapper1907_RocketGirl .nl-body .nl-main{ padding:0 2.42em; background-image:url('https://img.littlefox.co.kr/static/newsletter/2019_07_RocketGirl/main_bg.png'); background-repeat:no-repeat; background-size:100% 100%;}
+
+.nl-wrapper1907_RocketGirl .nl-body .nl-video-wrap{ position:relative; border:3px solid #117b37; box-sizing:border-box; border-radius:3px; line-height:0; }
+.nl-wrapper1907_RocketGirl .nl-body .nl-video{ overflow:hidden; line-height:0 !important; }
+.nl-wrapper1907_RocketGirl .nl-body .nl-video > video{  width:100%; height:100%; }
+.nl-wrapper1907_RocketGirl .nl-body .nl-video > img { width:100%; height:100%; }
+
+.nl-wrapper1907_RocketGirl .nl-body .ie8_text {padding-top:12px; font-size:0.9em; text-align:center; line-height:1.1; padding-top:0.75em;}
+
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc {padding:1.7em 0 1.9em;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc .nl-p-ttl {margin-bottom:.7em;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc .nl-p-ttl .nl-strong {padding-right:5px;font-size:1.57em;color:#004f36;font-weight:bolder;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc .nl-p-ttl .nl-sub {font-size:1em;word-break: keep-all;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc .nl-p-text {font-size:1.1em;line-height:1.6em;color:#333;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc .nl-p-text p + p {padding-top:.5em;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-desc .nl-p-text .nl-strong {color:#1b5e20;font-weight:700;}
+
+.nl-wrapper1907_RocketGirl .nl-body .nl-char-list {display:block;padding:0;margin:0 2.4em;list-style-type:none;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-char-list:after {content:'';display:block;clear:both;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-char-list li {float:left;overflow:hidden;width:33%;text-align:center;margin-bottom:.9em;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-char-list .nl-picture > img {max-width:100%;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-char-list .nl-pic-caption {height:1.5em;word-break:break-all;line-height:1.2em;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-char-list .nl-pic-caption strong {display:block;line-height:1.5em;}
+.nl-wrapper1907_RocketGirl .nl-body .nl-char-list .nl-strong-bl{font-weight:bolder;}
+
+.nl-wrapper1907_RocketGirl .nl-foot {height:.6em;padding:1em 1.2em 3em;text-align:center;}
+.nl-wrapper1907_RocketGirl .nl-foot > a {padding:.7em 1.5em;min-width:9.6em;max-width:80%;font-size:1.4em;line-height:130%;background-color:#7b4cfc;color:#fff;font-weight:bolder;border-radius:2em;box-shadow:0 .3em 0 0 #452b8f;box-sizing:border-box;}
+.nl-wrapper1907_RocketGirl .nl-foot.mf{display:none;}
+
+.nl-wrapper1907_RocketGirl.kr .nl-body .nl-desc .nl-p-text {font-size:1.1em;line-height:1.6em;color:#030100;word-break:keep-all;}
+.nl-wrapper1907_RocketGirl.kr .nl-foot,
+.nl-wrapper1907_RocketGirl.jp .nl-foot,
+.nl-wrapper1907_RocketGirl.cn .nl-foot,
+.nl-wrapper1907_RocketGirl.hk .nl-foot,
+.nl-wrapper1907_RocketGirl.tw .nl-foot,
+.nl-wrapper1907_RocketGirl.en .nl-foot {height:2.7em; }
+.nl-wrapper1907_RocketGirl.en .nl-body .nl-desc .nl-p-text .nl-strong2 {color:#e34f05;font-weight:bolder;}
+.nl-wrapper1907_RocketGirl.en .nl-body .nl-char-list .nl-pic-caption {height:auto;font-size:1em;}
+.nl-wrapper1907_RocketGirl.en .nl-body .nl-char-list li {margin-bottom:1.5em;}
+
+.nl-wrapper1907_RocketGirl.tw .nl-foot > a ,
+.nl-wrapper1907_RocketGirl.hk .nl-foot > a {font-weight:normal;}
+.nl-wrapper1907_RocketGirl.jp .nl-foot > a {font-size:1.3em;}
+
+@media screen and (max-width:499px) {
+	.nl-wrapper1907_RocketGirl {font-size:90%;}
+	.nl-wrapper1907_RocketGirl.jp .nl-body .nl-desc .nl-p-ttl .nl-strong {display: block}
+	.nl-wrapper1907_RocketGirl.jp .nl-body .nl-desc .nl-p-ttl .nl-sub {display: block}
+}
+
+@media screen and (max-width:639px) {
+	.nl-wrapper1907_RocketGirl .nl-head .nl-ttl {width:90%;}
+	.nl-wrapper1907_RocketGirl .nl-body .nl-main{padding:0 1.2em;}
+	.nl-wrapper1907_RocketGirl .nl-body .nl-desc,
+	.nl-wrapper1907_RocketGirl .nl-body .nl-char-list {margin:0 1.2em;}
+	.nl-wrapper1907_RocketGirl.jp .nl-body .nl-desc .nl-p-ttl .nl-strong {font-size: 1.4em}
+}
+@media screen and (max-width:479px) {
+	.nl-wrapper1907_RocketGirl .nl-body .nl-video-wrap{ border-width:2px; }
+	.nl-wrapper1907_RocketGirl .nl-body .nl-char-list li {width:calc(50% - 1em);margin-right:2em;}
+	.nl-wrapper1907_RocketGirl .nl-body .nl-char-list li:nth-child(2n) {margin-right:0;}
+}
+
+@media screen and (min-width:480px) and (max-width:639px) {
+	.nl-wrapper1907_RocketGirl .nl-body .nl-char-list li {width:calc(33% - 1em);margin-right:1em;}
+}
