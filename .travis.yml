@@ -12,9 +12,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
-    branch: main
-
-notifications:
-  email:
-    recipients: 
-      - okayoon.lee@gmail.com
+    branch: master
